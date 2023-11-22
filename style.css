@@ -1,0 +1,101 @@
+/*
+<div id="one">1</div>
+        <div id="two">2</div>
+        <div id="three">3</div>
+        <div id="four">4</div>
+        <div id="five">5</div>
+
+
+        <div>SUBMIT</div>
+*/
+
+body{
+    background-color: #141519;
+    display: flex;
+    justify-content: center;
+    margin-top:100px;
+
+}
+
+#star{
+    background-color: #282f39;
+    padding-left:13px;
+    padding-bottom: 5px;
+    padding-top:13px;
+    margin-top:35px;
+    margin-left:35px;
+    border-radius: 50%;
+}
+
+.card{
+    background-color: #212832;
+    height:500px;
+    width:500px;
+    border-radius: 5%;
+    
+}
+
+h1{
+    font-family: 'Overpass', sans-serif;
+    color:white;
+    margin-left:40px;
+}
+
+p{
+    font-family: 'Overpass', sans-serif;
+    color:hsl(217, 12%, 63%);
+    margin-left:40px;
+    font-size:17px;
+    width:400px;
+    height:100px;
+}
+
+.number_line{
+
+    margin-left:40px;
+}
+
+.number{
+    display: inline-block;
+    margin-right:30px;
+    font-family:'Overpass', sans-serif ;
+    color:hsl(216, 12%, 54%);
+
+    background-color: #282f39;
+    font-size:20px;
+    height:35px;
+    width:30px;
+    padding-top:13px;
+    padding-left:18px;
+    border-radius: 75%;
+}
+
+.number:hover{
+
+    background-color: hsl(217, 12%, 63%);
+    color:white;
+    cursor:pointer;
+}
+
+#button{
+    padding-top:10px;
+    margin-top:10px;
+    margin-left:40px;
+    text-align: center;
+    height:30px;
+    width:400px;
+    font-size:18px;
+    font-family:'Overpass', sans-serif;
+    color:white;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+    letter-spacing: 1px;
+}
+
+#button:hover{
+
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+    cursor:pointer;
+
+}
